@@ -1,0 +1,40 @@
+.header {
+  background-color: #E0F2B6;
+  height: 50px;
+  padding: 10px 15px 22px 15px;
+  color: white;
+}
+
+.header-title {
+  font-size: 1.5em;
+}
+
+.content {
+  height: 450px;
+  padding: 0 15px;
+  overflow-y: auto;
+}
+
+.footer {
+  background-color: #E0F2B6;
+  height: 50px;
+  padding: 10px;
+}
+
+.loader {
+    border: 25px solid #f3f3f3; /* Light grey */
+    border-top: 25px solid #ff1a1a; /* Red */
+	border-bottom: 25px solid #ff1a1a; /* Red */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+	margin: 0 auto;
+	top: 40%;
+	position: relative;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
